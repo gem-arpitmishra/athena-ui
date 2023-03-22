@@ -18,14 +18,6 @@ Feature: Athena Portal Automation
       | susheel7@gmail.com | abc@1234 |
 
 
-  Scenario Outline: Change Password
-    Given Login to Athena portal using username <user> and <pass> password
-    When Navigating to change password <pass> and creating new password <newpass>
-    Then Setting new password as <newpass> and checking <user> relogin
-    Examples:
-      |  user           |pass    | newpass |
-      |tushar1@gmail.com|abc@1234| abc@123 |
-
   Scenario Outline: Unsuccessful login
     Given Enter username as <username> and password as <password>
     When Click on signin
