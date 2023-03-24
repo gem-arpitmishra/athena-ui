@@ -1,8 +1,13 @@
 package org.gemini.athena.StepDefinition;
 
 import com.gemini.generic.exception.GemException;
+import com.gemini.generic.reporting.GemEcoUpload;
 import com.gemini.generic.ui.utils.DriverAction;
 import com.gemini.generic.ui.utils.DriverManager;
+import com.gemini.generic.utils.GemJarGlobalVar;
+import com.gemini.generic.utils.GemJarUtils;
+import com.gemini.generic.reporting.GemTestReporter.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import io.cucumber.java.Before;
 import org.openqa.selenium.chrome.ChromeOptions;
