@@ -1,6 +1,6 @@
 {
   "environment": "beta",
-  "project_name": "ATHENA",
+  "project_name": "ATHENA-UI",
   "report_name": "Athena_UI_Report",
   "sub_id": "test_id",
   "enter_point": "https://apis.gemecosystem.com/enter-point",
