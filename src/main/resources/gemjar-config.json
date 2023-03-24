@@ -4,8 +4,8 @@
   "report_name": "Athena_UI_Report",
   "sub_id": "test_id",
   "enter_point": "https://apis.gemecosystem.com/enter-point",
-  "jewel_user1": "tchauhan",
-  "jewel_bridge_token1": "3548cf51-4f28-4949-a8db-bdbb2f3027091673956073987",
+  "jewel_user": "geco-arpit",
+  "jewel_bridge_token": "1b941be5-dbc9-4b42-aec5-448756a3b8d71679643236819",
   "glueCode": "org.gemini.athena.StepDefinition",
   "feature": "src/main/resources/features",
   "beta": {
