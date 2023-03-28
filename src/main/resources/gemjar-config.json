@@ -9,22 +9,22 @@
   "glueCode": "org.gemini.athena.StepDefinition",
   "feature": "src/main/resources/features",
   "beta": {
-    "browserName": "chrome",
+    "browserName": "google-chrome",
     "launchUrl": "https://athena-dev.geminisolutions.com/login",
     "browserTimeout": 100
   },
   "prod": {
-    "browserName": "chrome",
+    "browserName": "google-chrome",
     "launchUrl": "https://athena-dev.geminisolutions.com/login",
     "browserTimeout": 100
   },
    "dev": {
-    "browserName": "chrome",
+    "browserName": "google-chrome",
     "launchUrl": "https://athena-dev.geminisolutions.com/login",
     "browserTimeout": 100
   },
    "other": {
-    "browserName": "chrome",
+    "browserName": "google-chrome",
     "launchUrl": "https://athena-dev.geminisolutions.com/login",
     "browserTimeout": 100
   }
