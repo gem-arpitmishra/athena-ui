@@ -14,17 +14,17 @@
     "browserTimeout": 100
   },
   "prod": {
-    "browserName": "google-chrome",
+    "browserName": "chrome",
     "launchUrl": "https://athena-dev.geminisolutions.com/login",
     "browserTimeout": 100
   },
    "dev": {
-    "browserName": "google-chrome",
+    "browserName": "chrome",
     "launchUrl": "https://athena-dev.geminisolutions.com/login",
     "browserTimeout": 100
   },
    "other": {
-    "browserName": "google-chrome",
+    "browserName": "chrome",
     "launchUrl": "https://athena-dev.geminisolutions.com/login",
     "browserTimeout": 100
   }
