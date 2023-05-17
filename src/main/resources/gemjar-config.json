@@ -3,11 +3,10 @@
   "project_name": "ATHENA-UI",
   "report_name": "Athena_UI_Report",
   "sub_id": "test_id",
-  "enter_point": "https://apis.gemecosystem.com/enter-point",
+  "enter_point": "https://apis-beta.gemecosystem.com/enter-point",
   "jewel_user": "geco-arpit",
-  "jewel_bridge_token": "1b941be5-dbc9-4b42-aec5-448756a3b8d71679643236819",
+  "jewel_bridge_token": "82079794-12a6-41f9-bef3-c9c97c167e3e1683870551130",
   "glueCode": "org.gemini.athena.StepDefinition",
-  "feature": "src/main/resources/features",
   "beta": {
     "browserName": "google-chrome",
     "launchUrl": "https://athena-dev.geminisolutions.com/login",
