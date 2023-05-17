@@ -20,6 +20,8 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- task: PublishCodeCoverageResults@2
+- task: PublishCodeCoverageResults@1
   inputs:
-    summaryFileLocation: './test_coverage*.xml'
+    codeCoverageTool: 'JaCoCo' 
+    # 'Cobertura' | 'JaCoCo'. Required. Code coverage tool. Default: JaCoCo.
+    summaryFileLocation: $(System.DefaultWorkingDirectory)/Reports/coverage.xml
